@@ -12,21 +12,7 @@ namespace LeetCode
         {
             var input = 2;
             var array = new int[] { 1, 2, 3, 4, 5 };
-            // [, , 1, 2, 3]
-
             var newArr = new int[array.Length];
-            //for (int i = 0; i < input; i++)
-            //{
-            //    if (i >= array.Length)
-            //    {
-            //        newArr[array.Length - i] = array[i];
-            //    }
-            //    else
-            //    {
-            //        newArr[i] = array[i + input];
-            //    }
-            //}
-
             for (int i = 0; i < array.Length; i++)
             {
                 if (i + input < array.Length)
